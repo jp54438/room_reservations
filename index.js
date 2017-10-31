@@ -1,5 +1,5 @@
 
-  apikey = ''
+  let apikey = ''
   let searchStr
   let rooms = []
   let buildingsArray = []
@@ -162,7 +162,7 @@
       ctx.fillText(val1, 5, 30)
       ctx.fillStyle = "#0000FF";
       ctx.fillText(document.getElementById('room2').value + ': ', 105 , 15)
-      ctx.fillText(val1, 105, 30)
+      ctx.fillText(val2, 105, 30)
       ctx.stroke();
   }  
 
@@ -208,7 +208,7 @@
       }
 
       if(!document.getElementById('room1').value) {
-        error += 'Room foir Building 1 not selected!\n'
+        error += 'Room for Building 1 not selected!\n'
       }
       if(!document.getElementById('room2').value) {
         error += 'Room for Building 2 not selected!\n'
@@ -268,7 +268,7 @@
       let days = days_between(new Date(document.getElementById('start_date').value) , new Date(document.getElementById('end_date').value))
       console.log(hours1/days)
       console.log(hours2/days)
-      drawBarChart(hours1/days, hours2/days, document.getElementById('hours_perday'), 40)
+      drawBarChart(hours1/days, hours2/days, document.getElementById('hours_perday'), 30)
     }
 
     function days_between(date1, date2) {
