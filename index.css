@@ -1,0 +1,59 @@
+	body{
+		background-color: rgba(240, 240, 183, 0.885)
+	}
+	*{
+		box-sizing:border-box;
+	}
+	div{
+		margin:0px;
+		padding: 0px;
+		color:green
+	}
+	canvas {
+      border:1px solid #000000;
+      line-height: 10px;
+    } 
+	h1{
+		font-family:Muli, sans-serif;
+		font-size: 1.5em;
+		color: black;
+	}
+	h2{
+		font-family:Muli, sans-serif;
+		font-size: 1.2em;
+		color: black;
+	}
+	
+	.container{
+		padding:0px;
+	}
+	.searchform, .results{
+		border:1px;
+		padding-top: 20px;
+		border-color: lightgray;
+		border-style: solid;
+	}
+	.results{
+		padding-bottom: 20px;
+		padding-left: 30px;
+		border-top:0px;
+	}
+.btn{
+		background-color:lightskyblue;/* rgb(70, 174, 243);*/
+		color:rgb(55, 33, 33);
+		border:0px;
+		border-radius: 4px;
+		margin:10px;
+		
+
+	}
+	.formrow {
+		padding-top: 10px;
+	}
+	.label{
+		padding-left: 20px;
+	}
+
+	.instructions{
+		padding-bottom: 20px;
+	}
