@@ -158,9 +158,11 @@
       ctx.font = ctx.font.replace(/\d+px/, "12px")
       ctx.shadowBlur = 0
       ctx.fillStyle = "#FF0000";
-      ctx.fillText( document.getElementById('room1').value + ': ' + val1, 5, 15)
+      ctx.fillText( document.getElementById('room1').value + ': ', 5, 15)
+      ctx.fillText(val1, 5, 30)
       ctx.fillStyle = "#0000FF";
-      ctx.fillText(document.getElementById('room2').value + ': ' + val2, 105 , 15)
+      ctx.fillText(document.getElementById('room2').value + ': ', 105 , 15)
+      ctx.fillText(val1, 105, 30)
       ctx.stroke();
   }  
 
